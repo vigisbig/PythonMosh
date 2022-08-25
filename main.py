@@ -1,8 +1,12 @@
-x = 10 + 3 * 2  # first multiplication is performed and then addition
+x = 3 > 2       # 3 > 2, is a boolean expression. This will return a boolean value since it evaluates if
+                # 3 > 2 and since it is true, the value True will be assigned to x
 
-print(x)
 
-y = (10+3)*2    # bracket can be used to change the operator precedence. The one is bracket is executed first
-                # in this case
 
-print(y)
+y = 3 >= 7
+z = 7 <= 5
+t = 5 == "5"    # this is an equality operator to check if values are equal
+l = 5 == 5
+u = 5 !=4       # this is inequality operator that checks for inequality and returns a boolean value
+
+print(x,y,z,t,l,u)
