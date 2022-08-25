@@ -14,4 +14,4 @@ print(course.find('Y')) # Due to case sensitive nature we get -1, since there's 
 print(course.find('for')) # returns index for word for and reports its first occurence
 print(course.replace('for', '4')) # this will also not modify the original string.
 print(course.find('Python')) # finds the word python, and returns its index of its first occurence
-print('Python' in course) # returns boolean value instead of index
+print('Python' in course) # in is a special keyword in Python called in operator, and it returns boolean value instead of index
