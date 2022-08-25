@@ -1,10 +1,15 @@
-price = 40
+weight = float(input("What is your weight? "))
+unit = input("(K)g or (L)b? " )
 
-print(price > 30 and price < 60)        # and is a logical operator, evaluates if both expressions are true
-                                        # and returns boolean value. Unlike in other softwares like JavaScript etc.
-                                        # here its not && but and
+if unit.upper() == "K":
 
-print(price > 30 or price < 60)         # or is another logical operator
+  WP = weight/0.45
+  
+  print("Weight in pound is "+ str(WP)+"Pound")
 
-print(not price > 10)                   # not operator simply inverses the boolean value
-print(not (price > 30 or price < 60))   # another example of not logical operator
+  
+else:
+
+  WK = weight*0.45
+  
+  print("Weight in kg is "+ str(WK)+"Kilogram")
