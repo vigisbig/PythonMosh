@@ -1,12 +1,10 @@
-x = 3 > 2       # 3 > 2, is a boolean expression. This will return a boolean value since it evaluates if
-                # 3 > 2 and since it is true, the value True will be assigned to x
+price = 40
 
+print(price > 30 and price < 60)        # and is a logical operator, evaluates if both expressions are true
+                                        # and returns boolean value. Unlike in other softwares like JavaScript etc.
+                                        # here its not && but and
 
+print(price > 30 or price < 60)         # or is another logical operator
 
-y = 3 >= 7
-z = 7 <= 5
-t = 5 == "5"    # this is an equality operator to check if values are equal
-l = 5 == 5
-u = 5 !=4       # this is inequality operator that checks for inequality and returns a boolean value
-
-print(x,y,z,t,l,u)
+print(not price > 10)                   # not operator simply inverses the boolean value
+print(not (price > 30 or price < 60))   # another example of not logical operator
