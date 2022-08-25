@@ -8,3 +8,4 @@ print(price > 30 or price < 60)         # or is another logical operator
 
 print(not price > 10)                   # not operator simply inverses the boolean value
 print(not (price > 30 or price < 60))   # another example of not logical operator
+

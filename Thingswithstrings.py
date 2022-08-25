@@ -9,9 +9,9 @@ print(course.upper())
 print(course)
 # note that the string variable itself does not change with use of these methods.
 print(course.lower())
-print(course.find('y')) # is used to find the occurence of y, so the index 0,1,2,3 returns the value 1
-print(course.find('Y')) # Due to case sensitive nature we get -1, since there's no capital Y
-print(course.find('for')) # returns index for word for and reports its first occurence
+print(course.find('y')) # is used to find the occurrence of y, so the index 0,1,2,3 returns the value 1
+print(course.find('Y')) # Due to case-sensitive nature we get -1, since there's no capital Y
+print(course.find('for')) # returns index for word for and reports its first occurrence
 print(course.replace('for', '4')) # this will also not modify the original string.
-print(course.find('Python')) # finds the word python, and returns its index of its first occurence
+print(course.find('Python')) # finds the word python, and returns its index of its first occurrence
 print('Python' in course) # in is a special keyword in Python called in operator, and it returns boolean value instead of index
