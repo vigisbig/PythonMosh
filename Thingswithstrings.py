@@ -23,3 +23,5 @@ print(course[3:])      # finds all letters starting from index 3 till end
 print(course[:6])      # finds all letters starting from index 0 till index 5
 print(course[:])       # finds all letters starting from index 0 till end
 print(course[1:-1])    # finds letters starting from index 1 till -1 (-1 index letter not included)
+print(len(course))     # We can use len function to find out lengths of strings. It's a general purpose function
+print(course.replace('you','beginners'))
