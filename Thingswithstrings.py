@@ -1,4 +1,4 @@
-course = ("Python for you")
+course = "Python for you"
 
 # the course variable here is technically storing a String object.
 # And an object can have many capabilities, like remote changing volume, changing channel, turning OFF etc.
@@ -15,3 +15,11 @@ print(course.find('for')) # returns index for word for and reports its first occ
 print(course.replace('for', '4')) # this will also not modify the original string.
 print(course.find('Python')) # finds the word python, and returns its index of its first occurrence
 print('Python' in course) # in is a special keyword in Python called in operator, and it returns boolean value instead of index
+print(course[0])       # finds the letter with index 0
+print(course[-1])      # finds the letter with index -1
+print(course[0:6])     # finds all letters with index 0 till index 5
+print(course[0:])      # finds all letters starting from index 0 till end
+print(course[3:])      # finds all letters starting from index 3 till end
+print(course[:6])      # finds all letters starting from index 0 till index 5
+print(course[:])       # finds all letters starting from index 0 till end
+print(course[1:-1])    # finds letters starting from index 1 till -1 (-1 index letter not included)
