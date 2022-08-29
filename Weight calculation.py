@@ -12,4 +12,3 @@ elif units == ("l" or "L"):
     wkg = float(weight)*0.45
 
     print("Your weight is " +str(wkg) +"kgs")
-
