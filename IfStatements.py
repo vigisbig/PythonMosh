@@ -1,4 +1,4 @@
-temperature = 9                    # We use IF statements to make decisions
+temperature = 9                    # We use IF statements to make decisions based on some condition
 
 if temperature > 30:                # If followed by condition to evaluate. Following line is automatically indented
     print("It's a hot day")         # to indicate the block of code, no curly braces
