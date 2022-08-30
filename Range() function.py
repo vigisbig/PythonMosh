@@ -1,6 +1,7 @@
 numbers = range(5)              #  A range function is an object that can store a sequence of values
 
 print(numbers)                  #  Displays the range object in its default representation format i.e. range (0, 5)
+
 for number in numbers:          #  To see the complete list of range items, you will need to use for loop
     print(number)               # the range (0,5), creates 5 values i.e. 0-4 using 1 as a step (and excludes 5)
 

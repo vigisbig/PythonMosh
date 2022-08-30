@@ -12,4 +12,4 @@ while i < len(numbers):  # Same can be done using while loop
 
     print(numbers[i])
 
-i += 1
+    i += 1
