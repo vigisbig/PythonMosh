@@ -9,7 +9,7 @@ while guess_count < guess_limit:
     
     if guess == secret_number:
         print(f"You guess it right, the secret number is {secret_number}")
-        break
-else:
+        break                                                               # We can use break to terminate the if loop
+else:                                                                       # A while loop can also have a else loop
     print("You Lose!")
 
