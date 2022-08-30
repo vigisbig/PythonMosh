@@ -1,5 +1,5 @@
 price = 1000000
-has_good_credit = True
+has_good_credit = False
 
 
 if has_good_credit:

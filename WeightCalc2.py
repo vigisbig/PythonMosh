@@ -5,11 +5,11 @@ if unit.upper() == "K":
 
     WP = weight / 0.45
 
-    print("Weight in pound is " + str(WP) + "Pound")
-
+    print(f"Weight in pound is {WP} Pound")                 # Done using formatted strings
 
 else:
 
     WK = weight * 0.45
 
-    print("Weight in kg is " + str(WK) + "Kilogram")
+    print("Weight in kg is " + str(WK) + " Kilogram")       # Done using string concatenation
+    
