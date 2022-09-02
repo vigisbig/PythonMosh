@@ -1,3 +1,5 @@
+# Logical operators and, or, not
+
 price = 40
 
 print(price > 30 and price < 60)        # and is a logical operator, evaluates if both expressions are true

@@ -53,3 +53,5 @@ print(numbers)
 numbers.reverse()                                     #     We can use reverse, followed by sort to reverse the order
 
 print(numbers)
+
+second_list = numbers.copy()                          #     This creates a copy of the list, upon modification of the first, the second will not be affected.
