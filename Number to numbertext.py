@@ -7,7 +7,7 @@
 #    empty += num_lib[i] + " "
 #print(empty)
 
-#   An Alternate way
+#   An Alternate way by using .get method
 numbers = input("Type your number: ")  
 empty = ""
 num_lib = {
