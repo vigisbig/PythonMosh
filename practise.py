@@ -1,4 +1,13 @@
-def multiply(number1,number2):
-    print(number1*number2)
+def emoj_bulao(message):
+    words = message.split(' ')
+    output = ""
+    emoji_dict = {
+        ":-)":"😊",":-(":"😢"
+    }
+    for word in words:
+        output += emoji_dict.get(word,word) + ' '
+    return output
 
-print(multiply(4,5))
+
+message = input("> ")
+print(emoj_bulao(message))
