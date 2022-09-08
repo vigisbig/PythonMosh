@@ -9,4 +9,12 @@ for i in numbers:
 print("########## alternative way #############")
 
 for i in numbers:
-    print(i * "X")
+    print(i * "*")
+
+print("############### alternative way ###############")
+
+L = [5,2,5,2,2]
+for i in L:
+    for j in range(i):
+        print('*', end='')
+    print()

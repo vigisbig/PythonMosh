@@ -5,9 +5,9 @@ course = "Python for you"
 # You can access these string specific functions (appropriately known as methods)
 # by adding a dot followed by the string variable as below. These are called methods and not functions
 # since functions are more generic and methods are specific. So functions, when part of an object are called methods
-print(course.upper())
 print(course)
 # note that the string variable itself does not change with use of these methods.
+print(course.upper())
 print(course.lower())
 print(course.find('y')) # is used to find the occurrence of y, so the index 0,1,2,3 returns the value 1
 print(course.find('Y')) # Due to case-sensitive nature we get -1, since there's no capital Y
