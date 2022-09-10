@@ -7,7 +7,7 @@ class Mammals:
         print("walk")
 
 class Dog(Mammals,Tails):
-    pass
+    pass                                # A class cannot be empty, so we input pass which tell python to skip this, it's ok.
 class Cat(Mammals,Tails):
     pass
 

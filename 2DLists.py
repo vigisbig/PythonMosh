@@ -1,5 +1,5 @@
 # 2D lists are very powerful and have a lot of application in data science and machine learning.
-# A 2D list is like we have an array or a matrix in mathematics, we can dine a matrix as below
+# A 2D list is like we have an array or a matrix in mathematics, we can define a matrix as below
 
 matrix = [[1,8,9],[4,7,1],[4,7,4]]
 

@@ -7,6 +7,6 @@ y = 3 >= 7
 z = 7 <= 5
 t = 5 == "5"    # this is an equality operator to check if values are equal
 l = 5 == 5
-u = 5 !=4       # this is inequality operator that checks for inequality and returns a boolean value
+u = 5 != 4       # this is inequality operator that checks for inequality and returns a boolean value
 
 print(x,y,z,t,l,u)
