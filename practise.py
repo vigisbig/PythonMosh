@@ -1,16 +1,7 @@
-class Tails:                   
-    def tail(self):
-        print("tail")
+from Utils import find_max
 
-class Mammals:
-    def walk(self):
-        print("walk")
+l1 = [9,23,4,5,6,6,7,78,7,986]
 
-class Dog(Mammals,Tails):
-    pass
-class Cat(Mammals,Tails):
-    pass
+max = find_max(l1)
 
-dog1 = Dog()
-dog1.tail()
-dog1.walk()
+print(max)
