@@ -1,9 +1,9 @@
 def find_max(list):
-    max = list[0]
+    max_n = list[0]
     for i in list:
-        if i > max:
-            max = i
-    return max
+        if i > max_n:
+            max_n = i
+    return max_n
 
 
 
