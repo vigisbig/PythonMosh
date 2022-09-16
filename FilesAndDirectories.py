@@ -1,5 +1,5 @@
 # pathlib is a module in default library. It provides classes that we can use to create objects to work with directories and files
-# from pathlib import path              This is used to import main class Path, from pathlib module. P is capital i.e. Path is a class
+# from pathlib import Path              This is used to import main class Path, from pathlib module. P is capital i.e. Path is a class
 
 from pathlib import Path
 

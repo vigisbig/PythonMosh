@@ -1,7 +1,7 @@
-from Utils import find_max
+import utils
 
-l1 = [9,23,4,5,6,6,7,78,7,986]
+list = [9,23,4,5,6,6,7,78,7,986,3323]
 
-max_num = find_max(l1)
+utils.max_n = utils.find_max(list)
 
-print(max_num)
+print(utils.max_n)
