@@ -12,9 +12,9 @@ class Point:                    # Constructors are used for instantiating an obj
         print("draw")
 
 
-# A constructor is a function that gets called at the time of creating an object
-# Below you can see the attributes 10,20 and these are the values that will be 
-# initialised for the object point below. And this is done by defining a special method called constructor in the class above
+""" A constructor is a function that gets called at the time of creating an object
+Below you can see the attributes 10,20 and these are the values that will be 
+initialised for the object point below. And this is done by defining a special method called constructor in the class above"""
 
 point1 = Point(10,20)       # point1 object created, and initialized values 10 and 20 for x and y respectively.
 point2 = Point(20,20)
