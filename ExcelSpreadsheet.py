@@ -18,4 +18,4 @@ def process_workbook(filename):                                          #   Put
     chart = BarChart()                                                                  # creating an object of class BarChart
     chart.add_data(values)                                                              # Using add_data method with Bar_Chart class object to specify values we want to bar chart 
     sheet.add_chart(chart,'f2')                                                         # Using add_chart method to create chart and specifying the location start point as f2
-    wb.save(filename)                                                                   #   Saving file
+    wb.save(filename)                                                                   # Saving file
